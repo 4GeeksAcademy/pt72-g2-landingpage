@@ -1,10 +1,16 @@
 import React from "react";
+import Navbar from "./navbar";
 import Card from "./card";
 import "/workspaces/pt72-g2-landingpage/src/styles/index.css"
+//include images into your bundle
+// import rigoImage from "../../img/rigo-baby.jpg";
 
+
+//create your first component
 const Home = () => {
 	return (
 		<div>
+		<Navbar/>
 			<div className="d-flex mx-auto">
 				<Card img={"https://images.pexels.com/photos/6985003/pexels-photo-6985003.jpeg?cs=srgb&dl=pexels-codioful-6985003.jpg&fm=jpg"} h5={"A Gradient Background"} p={"Just a colorful gradient background with vibrant colors."} a={"This button does nothing"}/>
 				<Card img={"https://media.istockphoto.com/id/584764738/vector/realistic-full-moon.jpg?s=612x612&w=0&k=20&c=7IOGLFxp6LzatVCGOwtXMgElNC1cMeTOAPzO5I6olvc="} h5={"The Moon and the Stars"} p={"It's always fascinating to look into space and see celestial objects."} a={"This button has potential"}/>
