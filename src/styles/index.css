@@ -1,3 +1,5 @@
+import 'relative/path/to/stylesheet.scss';
+
 body {
     margin-top: 50px;
 }
@@ -8,6 +10,11 @@ body {
     text-align: center;
 }
 
+    
+
+.container {
+    background-color: rgb(213, 214, 214)
+}
 img {
     height: 250px;
     width: 250px;
