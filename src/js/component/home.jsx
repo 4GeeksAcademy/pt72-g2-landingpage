@@ -1,5 +1,5 @@
 import React from "react";
-import Navfooter from "./navfooter";
+import Navbar from "./navbar";
 
 //include images into your bundle
 // import rigoImage from "../../img/rigo-baby.jpg";
@@ -9,7 +9,7 @@ import Navfooter from "./navfooter";
 const Home = () => {
 	return (
 		<div>
-		<Navfooter/>
+		<Navbar/>
 		</div>
 	);
 };

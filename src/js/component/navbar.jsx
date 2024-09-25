@@ -4,7 +4,7 @@ import React from "react";
 // import rigoImage from "../../img/rigo-baby.jpg";
 
 //create your first component
-const Navfooter = () => {
+const Navbar = () => {
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
   <div className="container-fluid">
     <a className="navbar-brand" href="#">Start Bootstrap</a>
@@ -33,4 +33,4 @@ const Navfooter = () => {
 
 };
 
-export default Navfooter;
+export default Navbar;
