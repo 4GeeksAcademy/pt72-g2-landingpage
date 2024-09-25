@@ -1,8 +1,7 @@
-import 'relative/path/to/stylesheet.scss';
 
-body {
+/* body {
     margin-top: 50px;
-}
+} */
 
 .card {
     display: flex;

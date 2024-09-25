@@ -4,10 +4,10 @@ import React from "react";
 // import rigoImage from "../../img/rigo-baby.jpg";
 
 //create your first component
-const Footer = () => {
-    <footer style={"background-color:grey;"}>  
-    	 Copyright &copy; Your Website 2024   
-    </footer>  
-};
+const Footer = () => (
+    <footer style={{"backgroundColor" : "grey"}}>
+        Copyright & copy; Your Website 2024   
+    </footer >  
+);
 
 export default Footer;
